@@ -11,7 +11,7 @@ Deno.serve(async (req) => {
   // アクセスしてきたクライアントにJSONを返す
   return new Response(body, {
     headers: {
-      'Access-Control-Allow-Origin': '*', // アクセス制限（全許可）
+      'Access-Control-Allow-Origin': 'https://genki0571.github.io/js_ApiTEst/',
       'content-type': 'application/json; charset=utf-8',
     },
   });
