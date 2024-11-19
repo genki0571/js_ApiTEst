@@ -9,5 +9,5 @@ async function getResource() {
   document.querySelector('h1').textContent = obj.env;
 }
 
-// button要素のclickイベントに登録
+// button要素のclickイベントに登録する
 document.querySelector('button').addEventListener('click', getResource);
